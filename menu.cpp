@@ -168,9 +168,9 @@ void menu(int &l_check, int &t_check)
 	cout << "4. Delete an element;" << endl << "5. Get an element;" << endl;
 	cout << "6. Pre-order traversal;" << endl << "7. Post-order traversal;" << endl;
 	cout << "8. Data manupulation." << endl;
-	cout << "Doubly linked list:" << endl << "9. Create a new array;" << endl << "10. Insert a new element;" << endl;
-	cout << "11. Delete an element;" << endl;
-	cout << "12. Get an element;" << endl << "13. Data manipulation." << endl;
+	cout << "Doubly linked list:" << endl << "9. Create a new list;" << endl << "10. Insert a new node;" << endl;
+	cout << "11. Delete a node;" << endl;
+	cout << "12. Get a node;" << endl << "13. Data manipulation." << endl;
 	int start0;
 	cin >> start0;
 	cin.clear();
