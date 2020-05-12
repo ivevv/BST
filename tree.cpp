@@ -218,11 +218,11 @@ void tree_by_size(tree *&root, int &lvl)
 		int *pool, *id;
 		pool = (int*)malloc(size * sizeof(int));
 		id = (int*)malloc(size * sizeof(int));
-		pool[0] = 1000;
+		pool[0] = rand();
 		id[0] = 0;
 		for (int i = 1; i < size; i++)
 		{
-			pool[i] = pool[i - 1] + 500;
+			pool[i] = pool[i - 1] + 1;
 			id[i] = i;
 		}
 		random_shuffle(id[0], id[size - 1]);
